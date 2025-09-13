@@ -17,8 +17,9 @@ jobs:
         uses: actions/setup-node@v5
         with:
           node-version: 22.14.0
+          cache: 'npm'
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Deploy
@@ -26,3 +27,5 @@ jobs:
         with:
           branch: gh-pages
           folder: build
+          token: ${{ secrets.GITHUB_TOKEN }}
+          clean: true
