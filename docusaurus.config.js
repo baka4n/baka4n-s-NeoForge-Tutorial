@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Baka4n\'s Neoforge Tutorial',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://github.com/baka4n.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
