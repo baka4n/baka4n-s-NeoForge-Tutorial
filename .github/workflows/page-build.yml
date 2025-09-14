@@ -51,6 +51,7 @@ jobs:
         env:
           BNT_CROWDIN_PROJECT_ID: ${{ secrets.BNT_CROWDIN_PROJECT_ID }}
           BNT_CROWDIN_API_TOKEN: ${{ secrets.BNT_CROWDIN_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
       - name: Build website
         run: npm run build
