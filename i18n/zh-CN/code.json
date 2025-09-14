@@ -40,7 +40,7 @@
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "system mode",
+    "message": "跟随系统",
     "description": "The name for the system color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {

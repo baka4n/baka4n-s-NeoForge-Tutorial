@@ -1,3 +1,8 @@
-project_id_env: BNT-CROWDIN_PROJECT_ID
-api_token_env: BNT-CROWDIN_API_TOKEN
+project_id_env: BNT_CROWDIN_PROJECT_ID
+api_token_env: BNT_CROWDIN_API_TOKEN
 preserve_hierarchy: true
+files:
+  - source: /docs/**/*.md
+    ignore:
+      - /docs/**/*.md # 先忽略所有
+    translation: /i18n/%locale%/docusaurus-plugin-content-docs/%original_path%
