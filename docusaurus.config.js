@@ -94,7 +94,7 @@ const config = {
         title: 'Baka4n\'s Neoforge Tutorial',
         logo: {
           alt: 'Baka4n Icon',
-          src: 'https://github.com/account',
+          src: 'https://github.com/baka4n.png',
         },
         items: [
           {
