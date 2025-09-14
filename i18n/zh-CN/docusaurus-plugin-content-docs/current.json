@@ -1,0 +1,19 @@
+{
+  "version.label": {
+    "message": "下一个",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Preparation & Onboarding": {
+    "message": "入门准备",
+    "description": "这个是Preparation & Onboarding文件夹"
+  },
+  "sidebar.tutorialSidebar.category.Items": {
+    "message": "物品",
+    "description": "这个是Items文件夹"
+  },
+  "sidebar.tutorialSidebar.category.Blocks": {
+    "message": "方块",
+    "description": "这个是Blocks文件夹"
+  }
+  
+}

@@ -32,17 +32,22 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh-Hans'],
+    defaultLocale: 'zh-CN',
+    locales: ['en-US', 'zh-CN', "zh-TW"],
     localeConfigs: {
-      en: {
-        label: 'English',
+      "en-US": {
+        label: 'English United States',
         direction: 'ltr',
       },
-      "zh-Hans": {
+      "zh-CN": {
         label: "简体中文",
         direction: "ltr"
+      },
+      "zh-TW": {
+        label: "繁體中文",
+        direction: "ltr"
       }
+      
     },
   },
 
@@ -128,15 +133,15 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/minecraft',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/baka_4n',
               },
             ],
           },
