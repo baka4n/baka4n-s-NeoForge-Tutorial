@@ -263,11 +263,11 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Expand the dropdown",
+    "message": "展开",
     "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Collapse the dropdown",
+    "message": "收起",
     "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
   },
   "theme.blog.post.plurals": {

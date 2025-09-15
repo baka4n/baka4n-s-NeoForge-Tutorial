@@ -6,5 +6,5 @@ files:
     translation: /i18n/%locale%/docusaurus-plugin-content-docs/current/**/%original_file_name%
   - source: /i18n/zh-CN/code.json
     translation: /i18n/%locale%/code.json
-  - source: /i18n/zh-CN/docusaurus-plugin-content-docs/current.json
-    translation: /i18n/%locale%/docusaurus-plugin-content-docs/current.json
+  - source: /i18n/zh-CN/**/*
+    translation: /i18n/%locale%/**/%original_file_name%
