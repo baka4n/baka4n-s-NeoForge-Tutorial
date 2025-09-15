@@ -1,0 +1,5 @@
+# 对 crowdin的排除
+
+!zh-CN/**
+
+**/code.json
