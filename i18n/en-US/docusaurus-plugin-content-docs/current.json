@@ -14,5 +14,10 @@
   "sidebar.tutorialSidebar.category.Blocks": {
     "message": "Blocks",
     "description": "The label for category Blocks in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Entities & Mobs": {
+    "message": "Entities & Mobs",
+    "description": "The label for category Entities & Mobs in sidebar tutorialSidebar"
   }
+  
 }
