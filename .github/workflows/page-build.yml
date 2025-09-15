@@ -46,7 +46,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: CHMOD
-        run: chmod -R 775 /
+        run: chmod -R 775 $GITHUB_WORKSPACE
       - name: Crowdin action
         uses: crowdin/github-action@v2
         with:
