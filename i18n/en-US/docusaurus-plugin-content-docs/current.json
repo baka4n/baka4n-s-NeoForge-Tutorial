@@ -18,6 +18,11 @@
   "sidebar.tutorialSidebar.category.Entities & Mobs": {
     "message": "Entities & Mobs",
     "description": "The label for category Entities & Mobs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.World Generation": {
+    "message": "World Generation",
+    "description": "The label for category World Generation in sidebar tutorialSidebar"
   }
+  
   
 }
