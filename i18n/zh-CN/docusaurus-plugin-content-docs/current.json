@@ -19,9 +19,16 @@
     "message": "生物和实体",
     "description": "The label for category Entities & Mobs in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.World Generation": {
-    "message": "世界生成",
-    "description": "The label for category World Generation in sidebar tutorialSidebar"
-  }
-  
+  "sidebar.tutorialSidebar.category.GUIs & Menus": {
+    "message": "Gui和菜单",
+    "description": "The label for category GUIs & Menus in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Effects & Dynamics": {
+    "message": "药水和动态内容",
+    "description": "The label for category Effects & Dynamics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Systems & Publishing": {
+    "message": "高级功能和发布",
+    "description": "The label for category Advanced Systems & Publishing in sidebar tutorialSidebar"
+  } 
 }
