@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /Entities % Mobs/
+slug: /Entities & Mobs/
 ---
 
 # 教程介绍
