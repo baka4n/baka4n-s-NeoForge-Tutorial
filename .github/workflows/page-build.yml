@@ -45,13 +45,8 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      - name: DTFC
-        run: |
-          find /i18n -path "*/docusaurus-plugin-content-docs/current/docs" -type d | while read -r docdir; do
-            tragetdir="${docdir%/docs}"
-            rsync -av -remove-source-files "$docdir"/ "$targetdir"/
-            rm -rf "$docdir"
-          done
+      - name: CHMOD
+        run: chmod -R 775 /
       - name: Crowdin action
         uses: crowdin/github-action@v2
         with:
@@ -62,7 +57,13 @@ jobs:
           BNT_CROWDIN_PROJECT_ID: ${{ secrets.BNT_CROWDIN_PROJECT_ID }}
           BNT_CROWDIN_API_TOKEN: ${{ secrets.BNT_CROWDIN_API_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        
+      # - name: DTFC
+      #   run: |
+      #     find /i18n -path "*/docusaurus-plugin-content-docs/current/docs" -type d | while read -r docdir; do
+      #       tragetdir="${docdir%/docs}"
+      #       rsync -av -remove-source-files "$docdir"/ "$targetdir"/
+      #       rm -rf "$docdir"
+      #     done
       - name: Build website
         run: npm run build
 
