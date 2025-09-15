@@ -46,7 +46,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: DTFC
-        run: sudo chmod -R 775 $GITHUB_WORKSPACE
+        run: |
+          find /i18n -path "*/docusaurus-plugin-content-docs/current/docs" -type d | while read -r docdir; do
+            tragetdir="${docdir%/docs}"
+            rsync -av -remove-source-files "$docdir"/ "$targetdir"/
+            rm -rf "$docdir"
+          done
       - name: Crowdin action
         uses: crowdin/github-action@v2
         with:
