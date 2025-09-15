@@ -5,23 +5,23 @@
   },
   "sidebar.tutorialSidebar.category.Preparation & Onboarding": {
     "message": "入门准备",
-    "description": "这个是Preparation & Onboarding文件夹"
+    "description": "The label for category Preparation & Onboarding in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Items": {
     "message": "物品",
-    "description": "这个是Items文件夹"
+    "description": "The label for category Items in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Blocks": {
     "message": "方块",
-    "description": "这个是Blocks文件夹"
+    "description": "The label for category Blocks in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Entities & Mobs": {
     "message": "生物和实体",
-    "description": "这个是Entities & Mobs文件夹"
+    "description": "The label for category Entities & Mobs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.World Generation": {
     "message": "世界生成",
-    "description": "这个是World Generation文件夹"
+    "description": "The label for category World Generation in sidebar tutorialSidebar"
   }
   
 }
