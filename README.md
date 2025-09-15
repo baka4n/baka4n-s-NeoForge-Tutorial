@@ -1,3 +1,6 @@
+# Translate
+[![Crowdin](https://badges.crowdin.net/baka4ns-neoforge-tutorial/localized.svg)](https://crowdin.com/project/baka4ns-neoforge-tutorial)
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
