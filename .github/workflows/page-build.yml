@@ -45,11 +45,11 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      - name: CHMOD
-        run: |
-          chmod -R 777 $GITHUB_WORKSPACE
-          mkdir -p $GITHUB_WORKSPACE/i18n
-          chmod -R 775 $GITHUB_WORKSPACE/i18n
+      # - name: CHMOD
+      #   run: |
+      #     chmod -R 777 $GITHUB_WORKSPACE
+      #     mkdir -p $GITHUB_WORKSPACE/i18n
+      #     chmod -R 775 $GITHUB_WORKSPACE/i18n
       - name: Crowdin action
         uses: crowdin/github-action@v2
         with:
@@ -57,7 +57,6 @@ jobs:
           download_translations: true
           pull_request_title: '[BNT] Crowdin Pull request'
         env:
-          BNT_CROWDIN_PROJECT_ID: ${{ secrets.BNT_CROWDIN_PROJECT_ID }}
           BNT_CROWDIN_API_TOKEN: ${{ secrets.BNT_CROWDIN_API_TOKEN }}
           GITHUB_WORKSPACE: ${{ github.workspace }}
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}

@@ -1,6 +1,7 @@
-project_id_env: BNT_CROWDIN_PROJECT_ID
+project_id_env: '829144'
 api_token_env: BNT_CROWDIN_API_TOKEN
 preserve_hierarchy: true
 files:
-  - source: /docs/**/*.md
-    translation: /i18n/%locale%/docusaurus-plugin-content-docs/current/%original_path%
+  - source: /docs/**/*
+    translation: /i18n/%locale%/docusaurus-plugin-content-docs/current/**/%original_file_name%
+  
